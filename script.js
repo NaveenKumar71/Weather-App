@@ -1,9 +1,9 @@
 
 
-const apiKey = "155b392198c5db741cd226cf090513f6";
+const apiKey = "{Your Api key}";
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q="
-const url1 = "&appid=155b392198c5db741cd226cf090513f6&units=metric"
+const url1 = "&appid="+apikey+"&units=metric"
 
 const weatherIcon = document.querySelector(".weather-icon")
 
